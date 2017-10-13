@@ -9,7 +9,7 @@
   },
   "main": "lib/gallery.js",
   "engines": {
-    "node": "4.0.0"
+    "node": "6.0.0"
   },
   "dependencies": {
     "css-loader": "^0.25.0",
