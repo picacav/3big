@@ -2,7 +2,7 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 var resize = require('./lib/resize'),
 cfg = require('./config'),
 express = require('express'),
-port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3000,
+port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 80,
 host = process.env.OPENSHIFT_NODEJS_IP;
 
 var photosPath = './resources/photos';
