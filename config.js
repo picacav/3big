@@ -6,14 +6,18 @@ module.exports = {
 		noAccess: '抱歉，你没有权限访问'
 	},
 	albums: {
-		"青海湖": {
-			thumbnail: "打马而过.jpg",
+		"快乐上学": {
+			thumbnail: "IMG_3577.JPG",
 		  sort: 1
 		}, 
-		"江南小镇": {
-		  description : "没有什么能够阻挡",
-			thumbnail: "燕歌行.jpg",
-		  name: "南浔"
+		"嬉戏玩耍": {
+			thumbnail: "IMG_3591.JPG",
+		  sort: 1
+		}, 
+		"幼儿园": {
+		  description : "幼儿园描述",
+			thumbnail: "IMG_4009.JPG",
+		  name: "幼儿园"
 		},
 		"私密": {
 			description: "这是一个需要密码的相册",

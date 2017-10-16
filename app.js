@@ -15,7 +15,7 @@ app.use(express.static(__dirname + '/assets/dist/'));
 app.use('/', require('./lib/gallery.js')(Object.assign({
   staticFiles : 'resources/photos',
   urlRoot : '/',
-  title : 'Zing Gallery',
+  title : 'Iron Triangle Gallery',
   render : false
 }, cfg)), function(req, res, next){
   return res.render('gallery', Object.assign({ 
@@ -23,7 +23,6 @@ app.use('/', require('./lib/gallery.js')(Object.assign({
   }, cfg));
 });
 
-
 app.listen(port, host);
 host = host || 'localhost';
-console.log('zing-gallery listening on ' + host  + ':' + port);
+console.log('iron-triangle gallery listening on ' + host  + ':' + port);

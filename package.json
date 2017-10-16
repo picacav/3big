@@ -1,6 +1,6 @@
 {
-  "author": "Litten <litten225@qq.com>",
-  "name": "zing-gallery",
+  "author": "Allen Shi<191347681@qq.com>",
+  "name": "iron-trian",
   "description": "NodeJS Photo Gallery using directory structure & exif info to output a gallery",
   "version": "1.0.0",
   "license": "MIT",
@@ -34,6 +34,10 @@
     "watch": "^1.0.1",
     "webp-bin": "^0.1.4",
     "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "file-loader":"^1.1.5",
+    "in-view":"^0.6.1"
   },
   "scripts": {
     "start": "node app.js",
